@@ -17,7 +17,7 @@ Notes from hands-on SQL practice (PostgreSQL first, with Snowflake syntax noted 
 
 ## Reference tables
 
-Comparison tables I keep coming back to are collected in each relevant file rather than duplicated here — e.g. `RANK()` vs `DENSE_RANK()` vs `ROW_NUMBER()` lives in [04](https://claude.ai/chat/04-window-functions.md), `ROLLUP` vs `CUBE` lives in [05](https://claude.ai/chat/05-pivoting-and-totals.md).
+Comparison tables I keep coming back to are collected in each relevant file rather than duplicated here — e.g. `RANK()` vs `DENSE_RANK()` vs `ROW_NUMBER()` lives in [04](04-window-functions.md), `ROLLUP` vs `CUBE` lives in [05](05-pivoting-and-totals.md).
 
 ---
 
