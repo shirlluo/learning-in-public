@@ -45,9 +45,6 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 ├── sql/
 │   ├── README.md           ← SQL section index
 │   └── 01-...  10-...      ← one topic per file
-├── databricks/
-│   ├── README.md
-│   └── 01-...  04-...
 └── python/
     ├── README.md
     └── 01-...
