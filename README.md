@@ -21,7 +21,7 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 | --- | -------------------------------------------------------------------------------------------- | ---------- |
 | 01  | [Fundamentals](./sql/01-fundamentals.md) — syntax, filtering, aggregating, sorting/grouping  | 🔲 Planned |
 | 02  | [Joins & Set Operations](./sql/02-joins-and-sets.md)                                         | 🔲 Planned |
-| 03  | [Subqueries, CASE WHEN, CTEs](./sql/03-subqueries-and-cte.md)                                | 🔲 Planned |
+| 03  | [Subqueries, CASE WHEN, CTEs](./sql/03-subqueries-and-cte.md)                                | ✅ Done     |
 | 04  | [Window Functions](./sql/04-window-functions.md)                                             | ✅ Done     |
 | 05  | [Pivoting & Group Totals](./sql/05-pivoting-and-totals.md)                                   | 🔲 Planned |
 | 06  | [PostgreSQL Functions](./sql/06-postgres-functions.md) — data types, date/time, text parsing | 🔲 Planned |
