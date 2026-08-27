@@ -283,4 +283,4 @@ It's readability: the main query stays flat and easy to follow instead of nestin
 
 ---
 
-_Part of my [SQL notes](sql/README) — written while upskilling in data analytics._
+_Part of my [SQL notes](sql/README), written during upskilling in data analytics._
