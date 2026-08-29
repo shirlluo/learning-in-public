@@ -52,7 +52,7 @@ ALTER COLUMN avg_grade TYPE INTEGER
   USING ROUND(avg_grade);
 ```
 
-- Update values\: `SET
+- Update values\: `SET`
 ```sql
 UPDATE table_name SET column_name = ROUND(column_name, 2)
 
@@ -62,7 +62,7 @@ FROM table_b
 WHERE <condition1> AND <condition2> AND ...;
 ```
 
-*Eg*, set `professor_id` to `professors`.`id` where firstname and lastname correspond to rows in professors
+*Eg*, set `professor_id` to `professors.id` where firstname and lastname correspond to rows in professors
 ```sql
 UPDATE affiliations
 SET professor_id = professors.id
