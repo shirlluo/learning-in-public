@@ -291,7 +291,7 @@ A **dimensional model** is built from two table types: **fact tables** and **dim
 - **Star schema**: one fact table connected directly to several dimension tables. Simple, one layer of dimensions.
 - **Snowflake schema**: an extension of the star schema where the dimension tables are themselves normalized into further sub-dimensions (eg, splitting a `country` dimension into `country` → `continent`).
 
-![[Pasted image 20260829235422.png]]
+![star vs snowflake schemas](star_vs_snowflake_schemas.png)
 
 - Create a foreign key in an existing table:
 ```sql
