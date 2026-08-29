@@ -22,9 +22,9 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 | 02  | [Joins & Set Operations](./sql/02-joins-and-sets.md)                                         | ✅ Done |
 | 03  | [Subqueries, CASE WHEN, CTEs](./sql/03-subqueries-and-cte.md)                                | ✅ Done     |
 | 04  | [Window Functions](./sql/04-window-functions.md)                                             | ✅ Done     |
-| 05  | [Pivoting & Group Totals](./sql/05-pivoting-and-totals.md)                                   | 🔲 Planned |
-| 06  | [PostgreSQL Functions](./sql/06-postgres-functions.md) — data types, date/time, text parsing | 🔲 Planned |
-| 07  | [Database Design](./sql/07-database-design.md) — OLTP/OLAP, star/snowflake, normalization    | 🔲 Planned |
+| 05  | [Pivoting & Group Totals](./sql/05-pivoting-and-totals.md)                                   | ✅ Done |
+| 06  | [PostgreSQL Functions](./sql/06-postgres-functions.md) — data types, date/time, text parsing | ✅ Done |
+| 07  | [Database Design](./sql/07-database-design.md) — OLTP/OLAP, star/snowflake, normalization    | ✅ Done |
 | 08  | [Views, Roles & Partitioning](./sql/08-views-and-roles.md)                                   | 🔲 Planned |
 | 09  | [Business Analytics in SQL](./sql/09-business-analytics.md) — retention, ARPU, cohorts       | ✅ Done |
 | 10  | [Snowflake SQL](./sql/10-snowflake-sql.md)                                                   | 🔲 Planned |
