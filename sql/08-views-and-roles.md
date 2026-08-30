@@ -135,7 +135,7 @@ Splitting a table into smaller physical pieces, part of the *physical* data mode
 
 **Vertical partitioning** splits by *columns*, useful for separating rarely-used or large columns (*eg*, a long text field) from the rest of the table:
 
-![[vertical_partitioning.png]]
+![vertical_partitioning](vertical_partitioning.png)
 
 Creating vertical partitions: create a new table with particular columns → copy the data there using `INSERT INTO new_table` → then drop the columns we want in the separate partition
 
@@ -159,7 +159,7 @@ JOIN film_descriptions USING(film_id);
 ```
 
 **Horizontal partitioning** splits by *rows*, *eg*, by timestamp. 
-![[horizontal_partitioning.png]]
+![horizontal_partitioning](horizontal_partitioning.png)
 
 In PostgreSQL, this is done through **declarative partitioning**:
 1. Add `PARTITION BY` to the table definition, 
