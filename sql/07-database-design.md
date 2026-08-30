@@ -263,12 +263,12 @@ ADD CONSTRAINT affiliations_organization_id_fkey
 
 - **(Traditional) databases** : relational, structured data, OLTP, schema-on-write (schema is fixed before data arrives)
 - **Data warehouse** : archived structured data, OLAP, schema-on-write
-  -Optimized for read-only analysis;
-  -Combines data from multiple sources using massively parallel processing (MPP);
-  -Typically uses a denormalized, dimensional schema
+Optimized for read-only analysis;
+Combines data from multiple sources using massively parallel processing (MPP);
+Typically uses a denormalized, dimensional schema
 	- **Data mart**: a topic-specific subset of a warehouse
 - **Data lake** : all data types, schema-on-read (schema is applied only when the data is read).
-  -Cheaper storage for raw/operational/IoT data, suited to big-data analytics and deep learning.
+  - Cheaper storage for raw/operational/IoT data, suited to big-data analytics and deep learning.
 
 **Data flows** (how data will get there and in what form): **ETL vs. ELT** 
 - ETL (transform before loading): the traditional approach for data warehouses and smaller-scale analytics
@@ -331,8 +331,8 @@ ADD CONSTRAINT country_continent FOREIGN KEY (continent_id) REFERENCES dim_conti
 ## 4. Normalization
 
 **Normalization**: a technique that divides tables into smaller tables and connects them via relationships (foreign keys). 
--Goal: to reduce redundancy (save space), increase data integrity (consistency, easier to redesign by extending)
--How to normalize: identify repeating groups of data and create new tables for them
+- Goal: to reduce redundancy (save space), increase data integrity (consistency, easier to redesign by extending)
+- How to normalize: identify repeating groups of data and create new tables for them
 
 **Normalization vs. denormalization** mirrors OLTP vs. OLAP: 
 - OLTP: write-intensive, prioritize quicker & safer insertion of data ⇒ highly normalized
@@ -343,8 +343,8 @@ ADD CONSTRAINT country_continent FOREIGN KEY (continent_id) REFERENCES dim_conti
 **1NF**: every record is unique (NO duplicate rows), and every cell holds exactly one and only one value (no repeating groups within a cell)
 
 **2NF**: must satisfy 1NF, and:
--if the primary key is a single column, the table is automatically 2NF;
--if the primary key is composite, every non-key column must depend on *all* parts of the key (NO partial dependencies)
+- if the primary key is a single column, the table is automatically 2NF;
+- if the primary key is composite, every non-key column must depend on *all* parts of the key (NO partial dependencies)
 
 Converting to 2NF: 
 ```sql
