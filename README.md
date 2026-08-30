@@ -1,6 +1,6 @@
 # Data Analytics Notes
 
-Structured, example-driven notes from upskilling in SQL, Python, and data modeling. Written up as I learn, not copy-pasted from a course.
+Structured, example-driven notes from upskilling in SQL, Python, Databricks, and data modeling. Written up as I learn, not copy-pasted from a course.
 
 Each file favors runnable code and comparison tables over long prose, so it doubles as a quick reference when I need to remember syntax mid-project.
 
@@ -18,16 +18,26 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 ### SQL
 | #   | Topic                                                                                        | Status     |
 | --- | -------------------------------------------------------------------------------------------- | ---------- |
-| 01  | [Fundamentals](./sql/01-fundamentals.md) — syntax, filtering, aggregating, sorting/grouping  | ✅ Done |
+| 01  | [Fundamentals](./sql/01-fundamentals.md): syntax, filtering, aggregating, sorting/grouping  | ✅ Done |
 | 02  | [Joins & Set Operations](./sql/02-joins-and-sets.md)                                         | ✅ Done |
 | 03  | [Subqueries, CASE WHEN, CTEs](./sql/03-subqueries-and-cte.md)                                | ✅ Done     |
 | 04  | [Window Functions](./sql/04-window-functions.md)                                             | ✅ Done     |
 | 05  | [Pivoting & Group Totals](./sql/05-pivoting-and-totals.md)                                   | ✅ Done |
-| 06  | [PostgreSQL Functions](./sql/06-postgres-functions.md) — data types, date/time, text parsing | ✅ Done |
-| 07  | [Database Design](./sql/07-database-design.md) — OLTP/OLAP, star/snowflake, normalization    | ✅ Done |
-| 08  | [Views, Roles & Partitioning](./sql/08-views-and-roles.md)                                   | 🔲 Planned |
-| 09  | [Business Analytics in SQL](./sql/09-business-analytics.md) — retention, ARPU, cohorts       | ✅ Done |
-| 10  | [Snowflake SQL](./sql/10-snowflake-sql.md)                                                   | 🔲 Planned |
+| 06  | [PostgreSQL Functions](./sql/06-postgres-functions.md): data types, date/time, text parsing | ✅ Done |
+| 07  | [Database Design](./sql/07-database-design.md): OLTP/OLAP, star/snowflake, normalization    | ✅ Done |
+| 08  | [Views, Roles & Partitioning](./sql/08-views-and-roles.md)                                   | ✅ Done |
+| 09  | [Business Analytics in SQL](./sql/09-business-analytics.md): retention, ARPU, cohorts       | ✅ Done |
+| 10  | [Snowflake SQL](./sql/10-snowflake-sql.md)                                                   | ✅ Done |
+
+### Databricks
+
+|#|Topic|Status|
+|---|---|---|
+|01|[Intro & Compute](./databricks/01-intro-and-compute.md): catalog, clusters, workspace | 🔲 Planned |
+|02|[Databricks SQL](./databricks/02-databricks-sql.md): SQL warehouses, ingestion | 🔲 Planned |
+|03|[Delta Lake](./databricks/03-delta-lake.md): ACID, schema evolution, time travel | 🔲 Planned |
+|04|[Dashboards](./databricks/04-dashboards.md): parameters, alerts, sharing | 🔲 Planned |
+
 
 ### Python
 | # | Topic | Status |
@@ -44,12 +54,15 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 ├── sql/
 │   ├── README.md           ← SQL section index
 │   └── 01-...  10-...      ← one topic per file
+├── databricks/
+│   ├── README.md
+│   └── 01-...  04-...
 └── python/
     ├── README.md
     └── 01-...
 ```
 
-Each file is self-contained: a short concept explanation, syntax reference, and a real query example — not a full transcript of a course.
+Each file is self-contained: a short concept explanation, syntax reference, and a real query example, not a full transcript of a course.
 
 ---
 
