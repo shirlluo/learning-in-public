@@ -27,7 +27,7 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 | 07  | [Database Design](./sql/07-database-design.md): OLTP/OLAP, star/snowflake, normalization    | ✅ Done |
 | 08  | [Views, Roles & Partitioning](./sql/08-views-and-roles.md)                                   | ✅ Done |
 | 09  | [Business Analytics in SQL](./sql/09-business-analytics.md): retention, ARPU, cohorts       | ✅ Done |
-| 10  | [Snowflake SQL](./sql/10-snowflake-sql.md)                                                   | ✅ Done |
+| 10  | [Snowflake SQL & Data Warehousing Concepts](./sql/10-snowflake-sql.md)                                                   | ✅ Done |
 
 ### Databricks
 
