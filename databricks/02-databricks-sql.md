@@ -116,14 +116,14 @@ OPTIMIZE table-name
 ## Quick reference: which do I need?
 
 - **Quick, one-off file load** : data upload
-- **Production-scale loading from databases or SaaS tools** : Lakeflow Connect
-- **Static dataset loaded from cloud storage** : `COPY INTO`
-- **Files keep arriving and I want them picked up automatically** : Auto Loader
-- **All incoming rows are new** : `INSERT INTO`
-- **Incoming rows might update existing ones** : `MERGE INTO`
-- **Too many small files** : `OPTIMIZE`
-- **Filtering often on a column with many unique values** : `Z-ORDER`
-- **Filtering often on a column with few unique values** : `PARTITION BY`
+- **Production-scale loading from databases or SaaS tools**: Lakeflow Connect
+- **Static dataset loaded from cloud storage**: `COPY INTO`
+- **Files keep arriving and I want them picked up automatically**: Auto Loader
+- **All incoming rows are new**: `INSERT INTO`
+- **Incoming rows might update existing ones**: `MERGE INTO`
+- **Too many small files**: `OPTIMIZE`
+- **Filtering often on a column with many unique values**: `Z-ORDER`
+- **Filtering often on a column with few unique values**: `PARTITION BY`
 
 ---
 *Part of my [Databricks notes](learn-in-public/README.md), written while upskilling in data analytics.*
