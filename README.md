@@ -33,10 +33,10 @@ I'm building toward a data analyst/analytics engineer role and wanted a public, 
 
 |#|Topic|Status|
 |---|---|---|
-|01|[Intro & Compute](./databricks/01-intro-and-compute.md): catalog, clusters, workspace | 🔲 Planned |
-|02|[Databricks SQL](./databricks/02-databricks-sql.md): SQL warehouses, ingestion | 🔲 Planned |
-|03|[Delta Lake](./databricks/03-delta-lake.md): ACID, schema evolution, time travel | 🔲 Planned |
-|04|[Dashboards](./databricks/04-dashboards.md): parameters, alerts, sharing | 🔲 Planned |
+|01|[Intro & Compute](./databricks/01-intro-and-compute.md): catalog, clusters, workspace | ✅ Done |
+|02|[Databricks SQL](./databricks/02-databricks-sql.md): SQL warehouses, ingestion | ✅ Done |
+|03|[Data Management](./databricks/03-data-management-in-databricks.md): Delta Lake, schema evolution, table persistence | ✅ Done |
+|04|[Dashboards](./databricks/04-dashboards.md): parameters, alerts, sharing | ✅ Done |
 
 
 ### Python
