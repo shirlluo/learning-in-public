@@ -126,4 +126,4 @@ OPTIMIZE table-name
 - **Filtering often on a column with few unique values**: `PARTITION BY`
 
 ---
-*Part of my [Databricks notes](learn-in-public/README.md), written while upskilling in data analytics.*
+*Part of my [Data Analytics notes](../README.md), written during upskilling in data analytics.*
