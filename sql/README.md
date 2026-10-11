@@ -14,6 +14,7 @@ Notes from hands-on SQL practice (PostgreSQL first, with Snowflake syntax noted 
 8. [Views, Roles & Partitioning](08-views-and-roles.md): views vs. materialized views, access control, table partitioning
 9. [Business Analytics in SQL](09-business-analytics.md): retention rate, ARPU, cohort bucketing, pivoted executive reports
 10. [Snowflake SQL](10-snowflake-sql.md): syntax differences, JSON/VARIANT handling, NATURAL/LATERAL joins
+11. [Exploratory Data Analysis](11-exploratory-data-analysis.md): summary statistics, percentiles, temp tables, cleaning categorical text, reading distributions
 
 
 ---
