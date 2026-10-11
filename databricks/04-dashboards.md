@@ -114,4 +114,4 @@ Notifications can be **customized** for specific users or groups, which keeps th
 
 ---
 
-_Part of my [Databricks notes](https://claude.ai/chat/README.md), written while upskilling in data analytics._
+_Part of my [Data Analytics notes](../README.md), written during upskilling in data analytics._
